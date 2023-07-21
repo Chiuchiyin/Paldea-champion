@@ -33,7 +33,16 @@ typedef enum {
 	R,
 	THROW,
 	NOTHING,
-	TRIGGERS
+	TRIGGERS,
+	MINUS,
+	PLUS,
+	R_AND_MINUS,
+	CAMERA_UP,
+	CAMERA_DOWN,
+	CAMERA_LEFT,
+	CAMERA_RIGHT,
+	ZL,
+	ZR
 } Buttons_t;
 
 typedef struct {
